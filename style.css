@@ -1,0 +1,126 @@
+body {
+    background-image: linear-gradient(to bottom, #f66151, #c01c28);
+    font-family: Arial, sans-serif;
+    color: #000000;
+  }
+  
+  nav {
+    clear:both;
+    position:relative;
+    margin: 0px;
+    bottom: 0;
+    width: 100%;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  footer ul li {
+    list-style-type:none;
+    display: inline;
+    padding: 20px;
+    background-color: whitesmoke;
+  }
+
+  footer ul li a {
+    text-decoration: none;
+    display: inline;
+  }
+  
+  
+  footer {
+    clear:both;
+    position:relative;
+    margin: 0px;
+    bottom: 0;
+    width: 100%;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+
+
+  .logo{
+    float: left;height: 50;width: 50px;
+  }
+  
+  header{
+    background-image: url(images/carabaowinners.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+  }
+
+  aside {
+    border: 2px solid black;
+    float: left;
+    width:18%;
+}
+
+aside ul li 
+{
+    list-style-type: none;
+}
+aside ul li a 
+{
+    color:black;
+    text-decoration: none;
+}
+main
+{
+  float:right;
+  width:80%;
+}
+  
+  
+  
